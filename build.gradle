@@ -84,7 +84,7 @@ dependencies {
     implementation "org.apereo.cas:cas-server-webapp-init:${casServerVersion}"
     implementation "org.apereo.cas:cas-server-support-swagger:${project.'cas.version'}"
     implementation "org.apereo.cas:cas-server-core-events-configuration:${project.'cas.version'}"
-
+    compile "org.apereo.cas:cas-server-webapp-config-server:${project.'cas.version'}"
 }
 
 tasks.findByName("jibDockerBuild")
